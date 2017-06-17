@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Book Crossing - DevOps Porto",
   "main": "index.js",
-  "scripts": {
-    "test": "verify"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pontoporponto/bookCrossing.git"
