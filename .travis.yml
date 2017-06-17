@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: lambda
   function_name: bookcrossing
-  region: us-east-1
+  region: eu-west-1
   role: arn:aws:iam::130143276000:role/service-role/bookCrossing
   runtime: nodejs6.10
   handler_name: index.handler
