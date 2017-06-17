@@ -7,7 +7,7 @@ deploy:
   region: eu-west-1
   role: arn:aws:iam::130143276000:role/service-role/bookCrossing
   runtime: nodejs6.10
-  modeule_name: src/bookCrossing/bookCrossing
+  module_name: src/bookCrossing/bookCrossing
   handler_name: handler
   access_key_id: AKIAJKHN3VRCTEDGDGRQ
   secret_access_key:
