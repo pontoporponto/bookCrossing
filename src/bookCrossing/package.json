@@ -1,0 +1,30 @@
+{
+  "name": "bookcrossing",
+  "version": "1.0.0",
+  "description": "Book Crossing - DevOps Porto",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pontoporponto/bookCrossing.git"
+  },
+  "scripts": {
+    "test": "gulp test --lambda=bookCrossing"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "NodeJS",
+    "Slack"
+  ],
+  "author": "César Rodrigues",
+  "license": "SEE LICENSE IN License",
+  "bugs": {
+    "url": "https://github.com/pontoporponto/bookCrossing/issues"
+  },
+  "homepage": "https://github.com/pontoporponto/bookCrossing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-aws-lambda-runner": "^1.0.2",
+    "yargs": "^8.0.2"
+  }
+}
