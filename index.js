@@ -1,3 +1,3 @@
 bookcrossing.handler = function(event, context, callback) {
-	console.log("Beringelas");
+	console.log("Batatas");
 }
