@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/pontoporponto/bookCrossing.git"
   },
+  "scripts": {
+    "test": "gulp test"
+  },
   "keywords": [
     "AWS",
     "Lambda",
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/pontoporponto/bookCrossing/issues"
   },
-  "homepage": "https://github.com/pontoporponto/bookCrossing#readme"
+  "homepage": "https://github.com/pontoporponto/bookCrossing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
