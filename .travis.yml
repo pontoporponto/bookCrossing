@@ -7,7 +7,7 @@ deploy:
   region: eu-west-1
   role: arn:aws:iam::130143276000:role/service-role/bookCrossing
   runtime: nodejs6.10
-  handler_name: index.handler
+  handler_name: src/bookCrossing/bookCrossing.handler
   access_key_id: AKIAJKHN3VRCTEDGDGRQ
   secret_access_key:
     secure: VaUHy4xnuTkHDGcWWbYH6p4nQwvTxL5sJkm2XmNNwDgI5Ncwdy7Vv7V6X/KWszzkydw1N1/MFpu+kLe1r8J3N5joC1+TPlyDWvhd26Wq1RUHEhmgtvgui0+BQTx7zWQ1+NvvGc2lf8tuf/qLixqa/+S1ncE4pjTKkqj4ZukgztDX+WnoE8NrIEHTenE/v9m94fQPVKxrCipK5xMd+pGOpDggXyw5f/HidtuJDB9uw0LAniJ4Ar+MnNdEPjf+l1ug1ppxs27SJhcFQgQCwrG5iL42uE89083b/KfO+eHAx40ykeGaBFk1Ynf31HvXG7S3y1qpRoyWfBzqVx8REOExB4vvK86fcESo6p5Urz8v5cRHzsZgzz+FTsFTMTseK6loOpI9TyelSr34tbB+1BrmLHrf1ykSAKON7Xzmz5txr57YahqOaXJC0mBB4hHxHYSTXDRfm2uJYKjtd/SGsHbKJwwmhcsUfBi2jlIvPiHNxUW4KvuEanCFV++0/KiPag9INBzfvoqPSi7XebM57MMZLjMdtSmbGrbFuk40MOXQAY60NcYd069LKU2kHF/ahOuFAR/R/FM5vZpCwQa5I5h+ytYHPxz83V8U7hdhnigZR9+fnJ7cnIinZOPTrCXaUNCGOBUl+UNDOXasWSA8v3RtgTu0tyHVoFkO0RH3B21C08s=

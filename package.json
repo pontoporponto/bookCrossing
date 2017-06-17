@@ -8,7 +8,7 @@
     "url": "git+https://github.com/pontoporponto/bookCrossing.git"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test --lambda=bookCrossing"
   },
   "keywords": [
     "AWS",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/pontoporponto/bookCrossing#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-aws-lambda-runner": "^1.0.2",
+    "yargs": "^8.0.2"
   }
 }
