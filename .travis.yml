@@ -1,3 +1,13 @@
 language: node_js
 node_js:
-  - "7"
+- '6.10'
+deploy:
+  provider: lambda
+  function_name: bookcrossing
+  region: us-east-1
+  role: arn:aws:iam::130143276000:role/service-role/bookCrossing
+  runtime: nodejs6.10
+  handler_name: index.handler
+  access_key_id: AWS ACCESS KEY ID
+  secret_access_key:
+    secure: a/4cR4t2hjx8SYwwet9jRUkn7kt28lt3kwJTQexOjEjOStuL2J4aVZOtiTwmxOZSaFP9mkg+1yX7/XgBU8+LpQE+ELHWoFgjTewO74UFeEQX6gINHcGrlbqVQ1i0VhYrwX4V/u61+u0GT1ivydT27SjbCYk6YZAkTbm95lKTee+VmVVjv2vbIAcVQ0/E02cXNM3N9ZcYBxERc0IoCU+eEkpEaAHt7Uvmtc7aReEE8Ktd8YU1O/tHcwXjHnJuxUeQkTYMAIFPqDBjhecUFFBRneN/14G2GFNJhA1zze2a1RRbF9dlCMz+HrxRxcbZd1KkjyIMfKGX3tLx9ztBA4zrwjEz45jj/jPDPKezVE4P7BwIw0W2wBbKRpNDRdyx+YVjclQJ0sSVki8gDOoL/hJB0xjEc2iEibkncBFnG1RVZphZt0mcBkePEk3/YF/HIEUv7GjHqwDWhM+jF5YnAfCdK4dMEnmppJGZQIoDZPEnvVdauqB050vM2w4EgKTIJCoCor9hbL/kZ6lqTMXgEK7KZ0eMWIYDAR/67mLHpizvVd848wn65fIGRLdHqEVYCL/pBjZgpMXkn+Xj+C1iyOQamSrbIOlP5kiSFVcE/AGjgOBFdjDs4EB1bGrdFegBmD0zsPkP9Y4+fMNL4jjLeR/i0iu/RVssys8X3/VNTS2qekE=
